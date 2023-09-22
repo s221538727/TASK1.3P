@@ -1,0 +1,28 @@
+/* Responsive styles for the enrollment form */
+@media screen and (max-width: 768px) {
+    /* Adjust form layout for smaller screens */
+    .form-group {
+      display: block;
+      margin-bottom: 15px;
+    }
+    label {
+      font-size: 18px;
+    }
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Responsive styles for the table */
+  @media screen and (max-width: 768px) {
+    table {
+      font-size: 16px;
+    }
+    th, td {
+      padding: 10px;
+    }
+  }
+  
